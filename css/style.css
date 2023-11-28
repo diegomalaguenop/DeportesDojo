@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 240, 240);
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar CSS */
+.nav {
+    height: 70px;
+    background-color: white;
+    color: black;
+}
+
+.nav2 {
+    height: 60px;
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.title {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    transform: skewX(-20deg);
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    width: 70%;
+    list-style-type: none;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 30px;
+    margin-left: 30px;
+}
+
+.nav-icons li {
+    list-style: none;
+}
+
+.nav-icons {
+    display: flex;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    margin-left: 20px;
+    width: 36px; 
+}
+
+
+.nav-links a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+
+/* Body CSS */
+
+.flex-container.main {
+    align-items: flex-start;
+}
+
+/* Col-1 CSS */
+
+.col-1 {
+    flex: 1;
+}
+
+.card {
+    background-color: #fff;
+    border: 5px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.column {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px;
+    background-color: white;
+    border-radius: 15px;
+    height: auto;
+    width: 220px;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin: 20px 45px;
+}
+
+.card-title {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 28px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    font-size:x-large;
+}
+
+
+.card-body {
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.card-body p {
+    margin-bottom: 15px;
+}
+
+.card-description {
+    display: flex;
+    align-items: center;
+    font-size:larger;
+    margin-left: 45px;
+    width: 300px;
+
+}
+
+a {
+    color: #3a81e6;
+}
+
+.cardName {
+    text-align: center;
+    margin-block-start: 0.67em;
+    margin-block-end: 0;
+    font-weight: bold;
+}
+
+.title {
+    margin-block-start: 0;
+    text-align: center;
+    
+}
+
+.subtitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    text-align: center;
+
+}
+
+.customize-title {
+    margin-top: 20px;
+}
+
+.never-title {
+    margin-top: 20px;
+}
+
+
+.card-buttons {
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 10px; 
+    gap: 15px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+} 
+
+.signin-button {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: #3b5998;
+    border: none;
+    font-size: 1rem;
+    margin-top: 15px;
+    padding: 5px;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-button {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    margin-top: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-button {
+    display: flex;
+    width: 180px;
+    height: 30px;
+    color: black;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 5px;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Col-2 CSS */
+
+.card1-titles {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+
+
+}
+
+.card-body1 {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+.card-ninja {
+    flex: 1;
+    text-align: center;
+    padding: 60px;
+    margin: 10px;
+}
+
+.card-vs {
+    flex: 1;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.card-pirates {
+    flex: 1;
+    text-align: center;
+    padding: 60px;
+    margin: 10px;
+}
+
+.card-ninja img,
+.card-pirates img {
+    max-width: 100px;
+    height: auto;
+}
+
+.card-ninja h2,
+.card-vs h2,
+.card-pirates h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card-ninja h5,
+.card-pirates h5 {
+    color: #777;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-ninja p,
+.card-pirates p {
+    color: #777;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-ninja h1,
+.card-vs h1,
+.card-pirates h1 {
+    font-size: 44px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card1-titles .live {
+    color: red;
+}
+
+.live {
+    margin-left: 50px;
+    margin-right: 170px;
+}
+
+.name-ninjas {
+    color: cadetblue;
+}
+
+.name-pirates {
+    color: red;
+}
+
+.card-time {
+    margin-top: 70px;
+}
+
+/* Col2 Footer*/
+
+.card-footer {
+    display: flex;
+    padding: 25px;
+    margin-top: 15px;
+}

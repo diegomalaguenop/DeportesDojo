@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes Dojo</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <!-- navbar 1-->
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">Live Scores</h1>
+            <ul class="nav-links">
+                <li>
+                    <p>SJC Ninjas - 314</p>
+                    <p>NS Pirates - 159</p>
+                </li>
+                <li>
+                    <p>CHI Samurai - 0</p>
+                    <p>Tul Wizards - 0</p>
+                </li>
+                <li>
+                    <p>BOS Hackers - 13</p>
+                    <p>Tyo Youkai - 37</p>
+                </li>
+                <li>
+                    <p>BOI Knights - 5</p>
+                    <p>SEA Sea Lions - 11</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- navbar 2-->
+    <div class="nav2">
+        <div class="flex-container">
+            <div class="title">
+                <h1 class="nav-title">DSNN</h1> 
+            </div>   
+            <ul class="nav-links">
+                <li><a href="#">Football</a></li>
+                <li><a href="#">Basketball</a></li>
+                <li><a href="#">Baseball</a></li>
+                <li><a href="#">Soccer</a></li>
+                <li><a href="#">More...</a></li>
+            </ul>
+            <ul class="nav-icons">
+                <li><img class="icon" src="/assets/search-light.png" alt="search"></li> 
+                <li><img class="icon" src="/assets/hamburger-light.png" alt="hamburguer"></li> 
+                <li><img class="icon" src="/assets/user-circle-light.png" alt="user"></li> 
+            </ul>
+        </div>
+    </div>
+    
+
+    <!-- main -->
+    <div class="flex-container main">
+        <!-- 1/3 width column -->
+        <div class="col-1">
+
+            <!-- Top Stories card -->
+            <div class="row">
+            <div class="column">
+                <div class="card-body">
+                    <h1 class="card-title">Top Stories </h1> 
+                    <p>Ninjas up big in 5th </p>
+                    <p>Best sport cities</p>
+                    <p>Choi joins Hall of Fame</p>
+                    <p>Tournament underway</p>
+                    <p> Samurai at Wizards...</p>
+                </div>
+            </div>
+            </div>
+
+            <!-- Customize card -->
+            <div class="row">
+                <div class="column">
+                    <div class="card-body">
+                        <h3 class="customize-title">Customize your DSNN </h3>            
+                    </div>
+                    <div class="card-buttons">
+                    <button class="signin-button">Sign In</button>
+                    <button class="signup-button">Sign Up</button> 
+                    </div>
+                </div>
+                </div>
+
+            <!-- Never Miss card -->
+            <div class="row">
+                <div class="column">
+                    <div class="card-body">
+                        <h3 class="never-title">Never miss a play </h3> 
+                        <button onclick="removeButton(this)" class="subscribe-button">Subscribe</button>
+                </div>
+                </div>
+        </div>   
+    </div>
+    <!-- 2/3 width column -->
+    <div class="col-2">
+        <!--  Live Card-->
+        <div class="card1">
+            <div class="card-body1">
+                <div class="card1-titles">
+                    <h2 class="live">• Live </h2>
+                    <h2>Ninjas Leading Pirates</h2> 
+                </div>  
+                <div class="card-ninja">
+                    <img src="/assets/sjc-ninjas.png" alt="">
+                    <h5>San Jose</h5>
+                    <h2 class="name-ninjas">Ninjas</h2>
+                    <p>(10 W - 3 L) </p>
+                    <h1><span class="score">314</span></h1>
+                </div>  
+                <div class="card-vs">
+                    <h2>VS</h2>
+                    <p class="card-time">0:13 remianing <br> 5th period </p>
+                </div>   
+                <div class="card-pirates">
+                    <img src="/assets/ns-pirates.png" alt="">
+                    <h5>Nova Scotia</h5>
+                    <h2 class="name-pirates">Pirates</h2>
+                    <p>(12 W - 2 L) </p>
+                    <h1><span class="score2">160</span></h1>
+                </div>              
+            </div>
+            <div class="card-footer">
+                <p>
+                    A conservative match between the two top-performing 
+                    sides in the Central League Division with a number 1
+                    seed at stake... <a href="#">get live updates</a>
+                </p>
+            </div>   
+        </div>
+    </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
